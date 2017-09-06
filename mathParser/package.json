@@ -1,0 +1,14 @@
+{
+  "name": "mathparser",
+  "version": "1.0.0",
+  "description": "math expressions parser",
+  "main": "parser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
