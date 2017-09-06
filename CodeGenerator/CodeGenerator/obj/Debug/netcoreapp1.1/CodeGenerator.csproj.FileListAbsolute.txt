@@ -1,0 +1,11 @@
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\bin\Debug\netcoreapp1.1\CodeGenerator.deps.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\bin\Debug\netcoreapp1.1\CodeGenerator.runtimeconfig.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\bin\Debug\netcoreapp1.1\CodeGenerator.runtimeconfig.dev.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\bin\Debug\netcoreapp1.1\CodeGenerator.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\bin\Debug\netcoreapp1.1\CodeGenerator.pdb
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.AssemblyInfoInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.AssemblyInfo.cs
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\CodeGenerator\CodeGenerator\obj\Debug\netcoreapp1.1\CodeGenerator.pdb
