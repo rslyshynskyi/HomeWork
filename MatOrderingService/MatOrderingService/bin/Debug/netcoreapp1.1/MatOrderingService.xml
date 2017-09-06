@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatOrderingService</name>
+    </assembly>
+    <members>
+        <member name="M:MatOrderingService.Controllers.OrdersController.Get(System.Int32)">
+            <summary>
+            Returns orders info by id
+            </summary>
+            <param name="id"></param>
+            <response code="200">Order returns succesfully</response>
+            <response code="404">Order not found</response>
+        </member>
+    </members>
+</doc>
