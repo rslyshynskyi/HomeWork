@@ -1,0 +1,10 @@
+.destroy {
+    font-weight: bold;
+    padding: 3px;
+    background-color: red;
+    border-color: red;
+}
+
+.toggle:checked + .todo-label {
+    text-decoration: line-through;
+}
