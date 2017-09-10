@@ -3,6 +3,9 @@ var scene = (function() {
     var scene = new THREE.Scene();
     var renderer = new THREE.WebGLRenderer({alpha: true});
 
+    var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+    var light = new THREE.DirectionalLight( 0xffffff, 0.8 );
+
     var camera, earthMesh;
 
     function initScene() {
@@ -15,26 +18,66 @@ var scene = (function() {
             1,
             1000
         );
-
         camera.position.set(0, 0, 5);
         scene.add(camera);
+
+        light.position.set( 1, 1, 1 );
+
+        scene.add( ambientLight );
+        scene.add( light );
+
+        /*var geometry = new THREE.SphereGeometry(1, 64, 64);
+
+        var loader = new THREE.TextureLoader();
+
+        loader.load('earth.jpg', function (geometry) {
+            var material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
+
+            earthMesh = new THREE.Mesh( geometry, material );
+            scene.add( earthMesh );
+
+            render();
+        });*/
+
+        var loader = new THREE.TextureLoader();
+
+        // load a resource
+        loader.load('earth.jpg', function ( texture ) {
+                var material = new THREE.MeshBasicMaterial( {
+                    map: texture
+                } );
+            },
+            // Function called when download progresses
+            function ( xhr ) {
+                console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+            },
+            // Function called when download errors
+            function ( xhr ) {
+                console.log( 'An error happened' );
+            }
+        );
 
         var loader = new THREE.TextureLoader();
 
         var geometry = new THREE.SphereGeometry(1, 64, 64);
         var material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
-        material.map = loader.load( 'earth.jpg' );
+        material.map = loader.load('earth.jpg', function ( texture ) {
+                var material = new THREE.MeshBasicMaterial( {
+                    map: texture
+                } );
+            },
+            // Function called when download progresses
+            function ( xhr ) {
+                console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+            },
+            // Function called when download errors
+            function ( xhr ) {
+                console.log( 'An error happened' );
+            }
+        );
+
         earthMesh = new THREE.Mesh( geometry, material );
         scene.add( earthMesh );
-
-        var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
-        scene.add( ambientLight );
-
-        var light = new THREE.DirectionalLight( 0xffffff, 0.8 );
-        light.position.set( 1, 1, 1 );
-        scene.add( light );
-
-        scene.add(earthMesh);
 
         render();
     }
