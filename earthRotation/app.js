@@ -26,37 +26,6 @@ var scene = (function() {
         scene.add( ambientLight );
         scene.add( light );
 
-        /*var geometry = new THREE.SphereGeometry(1, 64, 64);
-
-        var loader = new THREE.TextureLoader();
-
-        loader.load('earth.jpg', function (geometry) {
-            var material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
-
-            earthMesh = new THREE.Mesh( geometry, material );
-            scene.add( earthMesh );
-
-            render();
-        });*/
-
-        var loader = new THREE.TextureLoader();
-
-        // load a resource
-        loader.load('earth.jpg', function ( texture ) {
-                var material = new THREE.MeshBasicMaterial( {
-                    map: texture
-                } );
-            },
-            // Function called when download progresses
-            function ( xhr ) {
-                console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
-            },
-            // Function called when download errors
-            function ( xhr ) {
-                console.log( 'An error happened' );
-            }
-        );
-
         var loader = new THREE.TextureLoader();
 
         var geometry = new THREE.SphereGeometry(1, 64, 64);
