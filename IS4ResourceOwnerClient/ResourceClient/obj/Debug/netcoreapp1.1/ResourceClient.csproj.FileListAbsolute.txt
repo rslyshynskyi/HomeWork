@@ -1,0 +1,12 @@
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\bin\Debug\netcoreapp1.1\ResourceClient.deps.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\bin\Debug\netcoreapp1.1\ResourceClient.runtimeconfig.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\bin\Debug\netcoreapp1.1\ResourceClient.runtimeconfig.dev.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\bin\Debug\netcoreapp1.1\ResourceClient.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\bin\Debug\netcoreapp1.1\ResourceClient.pdb
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.csprojResolveAssemblyReference.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.AssemblyInfoInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.AssemblyInfo.cs
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\ResourceClient.pdb
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\ResourceClient\ResourceClient\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

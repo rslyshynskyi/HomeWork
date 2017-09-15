@@ -9,3 +9,14 @@ C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer
 C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.AssemblyInfo.cs
 C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.dll
 C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.pdb
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\bin\Debug\netcoreapp1.1\IdentityServer.deps.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\bin\Debug\netcoreapp1.1\IdentityServer.runtimeconfig.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\bin\Debug\netcoreapp1.1\IdentityServer.runtimeconfig.dev.json
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\bin\Debug\netcoreapp1.1\IdentityServer.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\bin\Debug\netcoreapp1.1\IdentityServer.pdb
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.AssemblyInfoInputs.cache
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.AssemblyInfo.cs
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.dll
+C:\Users\Rom\Documents\Visual Studio 2017\Projects\IdentityServer\IdentityServer4\IdentityServer\obj\Debug\netcoreapp1.1\IdentityServer.pdb

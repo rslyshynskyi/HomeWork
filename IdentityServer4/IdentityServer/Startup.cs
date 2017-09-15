@@ -19,10 +19,10 @@ namespace IdentityServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityServer()
-                .AddInMemoryClients(Clients.Get())
-                .AddInMemoryIdentityResources(Resources.GetIdentityResources())
-                .AddInMemoryApiResources(Resources.GetApiResources())
-                .AddTestUsers(Users.Get())
+                .AddInMemoryApiResources(Configs.GetApiResources())
+                .AddInMemoryClients(Configs.GetClients())
+                .AddInMemoryIdentityResources(Configs.GetIdentityResources())
+                .AddTestUsers(Configs.GetTestUsers())
                 .AddTemporarySigningCredential();
 
             services.AddMvc();
