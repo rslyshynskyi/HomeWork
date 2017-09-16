@@ -85,7 +85,7 @@ function checkSumOfNumber (arr, card) {
     }
 
     return card;
-};
+}
 
 function checkFinalNumberForOdd (arr, card) {
     var finalNumber = parseInt(arr[arr.length - 1]);
@@ -99,4 +99,4 @@ function checkFinalNumberForOdd (arr, card) {
     }
 
     return card;
-};
+}
